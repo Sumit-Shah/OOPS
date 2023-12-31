@@ -197,38 +197,58 @@
 
 
 
-class Shape {
-  public double getPerimeter() {
-      return 0.0;
-  }
+// class Shape {
+//   public double getPerimeter() {
+//       return 0.0;
+//   }
 
-  public double getArea() {
-      return 0.0;
-  }
-}
+//   public double getArea() {
+//       return 0.0;
+//   }
+// }
 
-class Circle extends Shape {
-  double radius;
+// class Circle extends Shape {
+//   double radius;
 
-  public Circle(double radius) {
-      this.radius = radius;
-  }
+//   public Circle(double radius) {
+//       this.radius = radius;
+//   }
 
-  @Override
-  public double getPerimeter() {
-      return 2 * Math.PI * radius;
-  }
+//   @Override
+//   public double getPerimeter() {
+//       return 2 * Math.PI * radius;
+//   }
 
-  @Override
-  public double getArea() {
-      return Math.PI * radius * radius;
-  }
-}
+//   @Override
+//   public double getArea() {
+//       return Math.PI * radius * radius;
+//   }
+// }
 
-public class Main {
-  public static void main(String[] args) {
-      Circle myCircle = new Circle(5.0);
-      System.out.println("Perimeter: " + myCircle.getPerimeter());
-      System.out.println("Area: " + myCircle.getArea());
-  }
-}
+// public class Main {
+//   public static void main(String[] args) {
+//       Circle myCircle = new Circle(5.0);
+//       System.out.println("Perimeter: " + myCircle.getPerimeter());
+//       System.out.println("Area: " + myCircle.getArea());
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Super Keyword:
+// 3.	Extend the Animal and Dog example by adding a constructor to the Animal class that takes a name parameter. 
+// In the Dog class, use the super keyword to call the constructor of the Animal class. 
+// Create instances of Dog and demonstrate the use of the super keyword
