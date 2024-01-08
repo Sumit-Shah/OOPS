@@ -189,6 +189,10 @@ class Student {
     String password;
     int marks[];
 
+    class Address {
+        String city;
+    }
+
     // Copy Constructor
     Student(Student s1) {
         marks = new int[3];
