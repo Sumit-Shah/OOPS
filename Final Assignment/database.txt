@@ -1,0 +1,25 @@
+create database coursemanagementsystem;
+
+show databases;
+
+use coursemanagementsystem;
+
+create table login(username varchar(25), password varchar(25));
+
+insert into login values('admin', '12345');
+
+select * from login;
+
+show databases;
+
+use coursemanagementsystem;
+
+create table student(name varchar(40), fname varchar(40), rollno varchar(20), dob varchar(40), address varchar(100), phone varchar(20), email varchar(40), class_x varchar(20), class_xii varchar(20), citizen varchar(20), course varchar(40), branch varchar(40));
+
+select * from student;
+
+
+create table teacher(name varchar(40), fname varchar(40), empId varchar(20), dob varchar(40), address varchar(100), phone varchar(20), email varchar(40), class_x varchar(20), class_xii varchar(20), citizen varchar(20), education varchar(40), department varchar(40));
+
+
+select * from teacher;
