@@ -1,161 +1,77 @@
-// Create a class Animal with properties like name and age. 
-// Create a subclass Dog that inherits from Animal and adds a property breed.
-// Demonstrate the use of constructors in both the Animal and Dog classes.
-// Define the Animal class
-// Define the Animal class
-// class Animal {
-//   String name;
-//   int age;
+// Task 1:
+// Define a class Person with attributes name and age.
+// Create a subclass Employee that inherits from Person and adds attributes employeeId, and salary.
+// Initialize an object employee1 using class Employee. Assign values to the attributes name, age, employeeId, and salary.
 
-//   public Animal(String name, int age) {
-//       this.name = name;
-//       this.age = age;
-//   }
+
+// class Person {
+//     String name;
+//     int age;
+
+//     void print(){
+//         System.out.println("I  am in Class");
+//     }
+// }
+
+// class Employee extends Person {
+//     int employeeId;
+//     int salary;
+// }
+
+// public class Main {
+
+//     public static void main(String[] args) {
+//         Employee employee1 = new Employee();
+//         employee1.name = "JHON";
+//         employee1.age = 25;
+//         employee1.salary = 25000;
+//         System.out.println(employee1.name);
+//         System.out.println(employee1.age);
+//         System.out.println(employee1.salary);
+
+//     }
+// }
+
+
+
+
+
+
+
+// Add a method makeSound() to the class Animal defined in task 2.
+// // Create subclasses Dog and Cat that inherit from Animal and override the makeSound() method to print the sound made by dog and cat respectively.
+
+// class Animal {
+//     String sound;
+//     String 
+
+
+//     void sound(){
+//         System.out.println("Sound");
+        
+//     }
 // }
 
 // class Dog extends Animal {
-//   String breed;
-
-//   public Dog(String name, int age, String breed) {
-//       super(name, age);
-//       this.breed = breed;
-//   }
-// }
-
-// public class Main {
-//   public static void main(String[] args) {
-//       Animal genericAnimal = new Animal("Generic Animal", 3);
-
-//       Dog specificDog = new Dog("SHYAM", 2, "German Sephard");
-      
-//       System.out.println(genericAnimal); 
-//       System.out.println(specificDog);   
-//   }
+// ass Cat extends Animal {
+//     @Override
+//     void sound(){
+//         System.out.println("Mew Mew");
+//     }
 // }
 
 
 
 
 
-
-
-
-
-
-
-// Write a Java program to create a class called Shape with methods called getPerimeter() and getArea(). 
-// Create a subclass called Circle that overrides the getPerimeter() and getArea() methods to 
-// calculate the area and perimeter of a circle
-// class Shape {
-//   public double getPerimeter() {
-//       return 0.0;
-//   }
-
-//   public double getArea() {
-//       return 0.0;
-//   }
+//     @Override
+//     void sound(){
+//         System.out.println("Bau Bau");
+//     }
+    
 // }
 
-// class Circle extends Shape {
-//   double radius;
-
-//   public Circle(double radius) {
-//       this.radius = radius;
-//   }
-
-//   @Override
-//   public double getPerimeter() {
-//       return 2 * Math.PI * radius;
-//   }
-
-//   @Override
-//   public double getArea() {
-//       return Math.PI * radius * radius;
-//   }
-// }
-
-// public class Main {
-//   public static void main(String[] args) {
-//       Circle myCircle = new Circle(5.0);
-//       System.out.println("Perimeter: " + myCircle.getPerimeter());
-//       System.out.println("Area: " + myCircle.getArea());
-//   }
-// }
-
-
-
-
-
-
-
-// 1.	Create a class Animal with properties like name and age. 
-// Create a subclass Dog that inherits from Animal and adds a property breed.
-//  Demonstrate the use of constructors in both the Animal and Dog classes.
-
-// class Animal {
-//   String name;
-//   Integer age;
-
-//   public Animal(String name, Integer age) {
-//     this.name = name;
-//     this.age = age;
-//   }
-  
-// }
-
-// class Dog extends Animal {
-//   String breed;
-
-//   public Dog(String breed) {
-//     this.breed = breed;
-//   }
-// }
-
-
-//   public static void main(String[] args) {
-//     Animal myDog = new Animal(10, "SHYAM");
-
-//     Dog kuta = new Dog(String "German Sephad.");
-
-//     System.out.println(myDog);
-//     System.out.println(kuta);
-//   }
-
-
-
-
-
-
-
-
-// class Animal {
-//   String name;
-//   int age;
-
-//   public Animal(String name, int age) {
-//     this.name = name;
-//     this.age = age;
-//   }
-// }
-
-// class Dog extends Animal {
-//   String breed;
-
-//   public Dog(String name, int age, String breed) {
-//     super(name, age);
-//     this.breed = breed;
-//   }
-// }
-
-// public class Main {
-//   public static void main(String[] args) {
-//     Animal myDog = new Animal("SHYAM", 10);
-//     Dog myPet = new Dog("Buddy", 5, "German Shepherd");
-
-//     System.out.println("Animal: " + myDog.name + ", Age: " + myDog.age);
-//     System.out.println("Dog: " + myPet.name + ", Age: " + myPet.age + ", Breed: " + myPet.breed);
-//   }
-// }
+// cl
 
 
 
@@ -168,69 +84,71 @@
 
 
 
-// 2.	Write a Java program to create a class called Shape with methods called getPerimeter() and getArea(). 
-// Create a subclass called Circle that overrides the getPerimeter() and getArea() methods to 
-// calculate the area and perimeter of a circle
+
+
+
+// Implement a class Shape with attributes color and method printArea().
+// Create a subclass Rectangle that inherits from Shape and adds attributes length and width.
+//  Use super() to initialize the color attribute in the Rectangle constructor.
+// Create a subclass Square that inherits from Shape and adds attributes length. 
+// Use super() to initialize the color attribute in the Square constructor.
 
 // class Shape {
-//   float radius;
-  
-  
-//   perimeter(float 2, float Math.PI, float 5)
-//   float getPerimeter() {
-//     return 2 * Math.PI * radius;
-//   }
-
-  // double getArea() {
-  //   return Math.PI * radius * radius;
-  // }
+//     String color;
 
 // }
 
-// public class Main {
-//   public static void main(String args[]) {
+// class Rectangle extends Shape {
+//     int length;
+//     int width;
 
-//   }
+//     Area();
 // }
 
+// class Square extends shape {
 
-
-
+// }
 
 // class Shape {
-//   public double getPerimeter() {
-//       return 0.0;
-//   }
+//     String color;
 
-//   public double getArea() {
-//       return 0.0;
-//   }
+//     public Shape(String color) {
+//         this.color = color;
+//     }
+
+//     public void printArea() {
+//         System.out.println("calculate and print area.");
+//     }
 // }
 
-// class Circle extends Shape {
-//   double radius;
+// class Rectangle extends Shape {
+//     int length;
+//     int width;
 
-//   public Circle(double radius) {
-//       this.radius = radius;
-//   }
+//     public Rectangle(String color, int length, int width) {
+//         super(color);
+//         this.length = length;
+//         this.width = width;
+//     }
 
-//   @Override
-//   public double getPerimeter() {
-//       return 2 * Math.PI * radius;
-//   }
-
-//   @Override
-//   public double getArea() {
-//       return Math.PI * radius * radius;
-//   }
+//     public void printArea() {
+//         int area = length * width;
+//         System.out.println("The area of the rectangle is: " + area);
+//     }
 // }
 
-// public class Main {
-//   public static void main(String[] args) {
-//       Circle myCircle = new Circle(5.0);
-//       System.out.println("Perimeter: " + myCircle.getPerimeter());
-//       System.out.println("Area: " + myCircle.getArea());
-//   }
+// class Square extends Shape {
+//     int length;
+
+//     public Square(String color, int length) {
+//         super(color);
+//         this.length = length;
+//     }
+
+//     public void printArea() {
+//         int area = length * length;
+//         System.out.println("The area of the square is: " + area);
+//     }
 // }
 
 
@@ -241,6 +159,26 @@
 
 
 
+// Create a class AreaCalculator with method calculateArea() and perform the following tasks:
+// Create an overloaded method named calculateArea to compute and display the area of a rectangle using length and width.
+// Overload the calculateArea() method to calculate and display the area of a square using the side length.
+// Overload the calculateArea method again to calculate and display the area of a triangle using base and height.
+
+public class Main {
+    public static void main(String args[]) {
+    calculator calc = new calculator();
+    System.out.println(calc.area(5.2, 5.5));
+    }
+
+    
+}
+class calculator {
+    float area(float l, float w);{
+        return l*w;
+    }
+    
+
+}
 
 
 
@@ -248,7 +186,3 @@
 
 
 
-// Super Keyword:
-// 3.	Extend the Animal and Dog example by adding a constructor to the Animal class that takes a name parameter. 
-// In the Dog class, use the super keyword to call the constructor of the Animal class. 
-// Create instances of Dog and demonstrate the use of the super keyword

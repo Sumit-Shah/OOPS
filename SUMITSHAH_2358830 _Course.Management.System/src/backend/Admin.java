@@ -1,0 +1,10 @@
+package backend;
+
+public class Admin extends User {
+	
+	
+	public Admin() {
+		
+	}
+
+}
